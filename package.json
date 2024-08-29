@@ -1,15 +1,22 @@
 {
   "name": "contactbook-backend",
   "version": "1.0.0",
+  "description": "Trương Huệ Thanh - DI22V7X045",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "script": {
+    "start": "nodemon server.js"
+},
   "author": "Thanh Truong",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
