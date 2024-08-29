@@ -12,3 +12,14 @@ export default [
   pluginReact.configs.flat.recommended,
 ];
 
+<<<<<<< HEAD
+=======
+module.exports = {
+  env: {
+   node: true,
+   commonjs: true,
+   es2021: true,
+  },
+  extends: ['eslint:recommended', 'prettier'],
+};
+>>>>>>> 697733f53b85c0429d1d94dc9397204af20eeace
